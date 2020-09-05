@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thrill seekers</title>
+	<meta charset="utf-8">
+	<meta name="Front End Development" content="Complete website design">
+	<meta name="keywords" content="Html,CSS,Front End">
+	<meta name="Author" content="Sami Parllaku">
+	<link rel="stylesheet" type="text/css" href="Frontend.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="icon"  href="img/favicon.ico">
+</head>
+<body class="body-login">
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="img/thrill.png" width="80px" alt="logo">
+				<input type="text" name="search" class="searchbar" size="20" placeholder="Seach Web...">
+				<input type="submit" value="Search" size="2.5" class="searchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href=" javascript:void(0)" >Menu</a>
+						<div class="dropdown">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="Media.html">Media</a>
+							<a href="signup.html">Sign Up</a>
+							<a href="login.html">Log In</a>
+							<a class="About" href="About.html">About</a>
+						</div>
+
+					</li>
+                    <li><a href="blog.html">Blog</a></li>
+					<li class="mediadrop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="mediadropdown">
+							<a href="media.html">Images </a>
+							<a href="media.html">Videos</a>
+							<a href="media.html" class="slides">Slides</a>
+							
+						</div>
+
+					</li>
+					<li><a href="signup.html">Sign Up</a></li>
+					<li><a href="login.html" class="active"> Log In</a></li>
+					<li><a href="contact.html">Contact </a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+
+			</nav>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="login-header">
+			<h1 class="login-h1"> Login</h1>
+		</div>
+		<div class="welcome">
+			<form id="loginform" action="media.html" method="POST">
+				<h2>Sign in</h2>
+				<div class="row">
+					<p class="p3">
+						<label for="email">Email</label>
+						<input id="login1" type="email" name="Email" placeholder="example@domain.com" required="required">
+					</p>
+					<p class="p3">
+						<label for="Password">Password</label>
+						<input id="login1" type="Password" name="Password" placeholder="******"
+						min="6" required="required">
+					</p>
+					<p class="rmbme">
+						<input  type="checkbox" name="Signedin" value="Remember me">  Remember Me
+					</p>
+					<p class="recoverpassword">
+						<input class="submit" type="submit" value="Login">
+						<a class="forgotpass" href="#">Forgot Password</a>
+					</p>
+				
+					<p class="new-member">
+						<label for="newmember">Not yet a member?</label>
+						<a class="register1" href="signup.html">Register</a>
+					</p>
+
+				</div>
+			</form>	
+		</div>
+	
+
+	</div>
+
+	<footer>
+		<div class="bottom-site">
+			<a href="http://www.facebook.com" target="_blank" class="footer-link">Facebook</a>
+			<a href="http://www.twitter.com" target="_blank" class="footer-link">Twitter</a>
+			<a href="index.html" class="footer-link">Home</a>
+			<p class="copyright">&copy; 2020 Sami Parllaku @New-Designer</p>
+	</footer>
+
+</body>
+</html>

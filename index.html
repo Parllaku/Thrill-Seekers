@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thrill seekers</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Front End Development" content="Complete website design">
+	<meta name="keywords" content="Html,CSS,Front End">
+	<meta name="Author" content="Sami Parllaku">
+	<link rel="stylesheet" type="text/css" href="Frontend.css">
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<link rel="icon"  href="img/favicon.ico">
+	<script type="text/javascript" src="frontend.js"></script> 
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+
+<body class="body1">
+	<header>
+	  
+
+		<div class="headermenu">
+
+		
+			<nav class="navbar">
+				<img src="img/thrill.png" width="80px" alt="logo">
+
+				
+				<input type="text" name="search" class="searchbar" size="20" placeholder="Seach Web...">
+				<input type="submit" value="Search" size="2.5" class="searchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href=" javascript:void(0)" class="active">Menu</a> 
+						<div class="dropdown">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="Media.html">Media</a>
+							<a href="signup.html">Sign Up</a>
+							<a href="login.html">Log In</a>
+							<a class="About" href="About.html">About</a>
+						</div>
+
+					</li>
+                    <li><a href="blog.html">Blog</a></li>
+					<li class="mediadrop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="mediadropdown">
+							<a href="media.html">Images </a>
+							<a href="media.html">Videos</a>
+							<a href="media.html" class="slides">Slides</a>
+							
+						</div>
+
+					</li>
+					<li><a href="signup.html">Sign Up</a></li>
+					<li><a href="login.html"> Log In</a></li>
+					<li><a href="contact.html">Contact </a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+	
+			</nav>
+
+
+		</div>
+			<span data-toggle-target=".navbar" class="toggle-btn"><img src="img/menu.png"></span>
+	</header>
+	<div class="site-container">
+		<div class="top-site">
+			<h1 class="glow">Thrill Seekers!!! </h1>
+			<h2><b>This Is Our Jurney Around All Theme Parks!</b></h2>
+		</div>
+		<div class="middle-site">
+			<div class="first-middle-site">
+				<img class="img2" src="https://media.giphy.com/media/VIDhCKipwIAUYR2bPz/giphy.gif" alt="roller coster ">
+				<h2 class="header2">Why We Love Theme Parks</h2><br>
+				<p class="p1">
+					Going on a theme park ride reduces stress. Yep – you heard right! According to Judy Kurianski, a clinical psychologist, rides expose us to “good fear”. You might be nervous before the ride but when you’re on it you release a lot of tension as you scream with excitement and/or anxiety.
+				</p>
+			 </div><br><br><br>
+			    <hr class="line1">
+			<div class="second-middle-site">
+			
+			   <div class="our-services">
+				  <img src="img/img3.png" alt="roller-coster" class="coster1">
+				  <h4  class="thefood"><u><a href="https://www.cbc.ca/kidscbc2/the-feed/6-screaming-roller-coaster-rides-in-the-world"  class="thefood" target="_blank">THE RIDES</a> </u></h4><br>
+				  <p>
+                    Going on a theme park ride reduces stress. Yep – you heard right! According to Judy Kurianski, a clinical psychologist, rides expose us to “good fear”. You might be nervous before the ride but when you’re on it you release a lot of tension as you scream with excitement and/or anxiety. There are few places in the world where it is okay to yell, scream, yelp and let yourself go. Going on rides produces a healthy level of adrenaline. When our bodies release adrenaline it also releases endorphins which make us happy! All sciency stuff aside rides are just TONS of fun!<br>
+                  </p>
+				
+			   </div>
+			   <div class="our-services">
+				   <img src="img/img4.png" alt="food-icon" class="coster2">
+				   <h4 class="thefood"><u><a href="https://www.thedailymeal.com/travel/best-theme-park-foods-ranking/slide-2" target="_" class="thefood">THE FOOD</a> </u></h4><br>
+				   <p> 
+                     We definitely don’t want to promote unhealthy eating habits. But a treat every once in awhile is allowed. And if you’re gonna treat yourself to some sweet and grease –  a theme park is the one place you can get away with it! Popcorn is a relatively healthy snack and theme parks are heaving it with. Fairy floss (or candyfloss where I come from) is a theme park favourite and a box that has to be ticked when visiting a park. Delicious hot dogs, corn dogs and french fries are most amusement park goers go-to. Make sure you drink plenty of water to stay hydrated throughout the day and balance out all the sugar and fat with a detox day the day after your visit.
+                   </p>
+				
+			   </div>
+				
+			</div>
+			<hr class="third-middle-site-line">
+			
+			<div>
+					<br>
+					<h2 class="need-our-services">Need our services?</h2><br>
+					<h3 class="hit-the-button">Hit the contact box and drop us a message!</h3><br>
+					<p class="contact-message">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random .</p>
+					<!--<a class="my-button" href="mailto:Sami.parllaku@live.com">contact us</a>-->
+			</div>
+				
+			<div class="mypopup">
+				<div id="messagebox">
+					<div id="popupcontact">
+						<form action="#" id="form" method="Post" name="Form">
+							<img src="img/xbutton.png" id="xbutton" alt="x button" onclick="close_form()">
+							<h2 class="contactuspop">Contact Us</h2><br><br>
+							
+							<input type="text" id="name" name="name" placeholder="Name">
+							<input type="email" id="email" name="email" placeholder="Email">
+							<textarea id="msg" name="message" placeholder="Message"></textarea>
+							<a href="javascript:input_fields()" id="submit">Send Message</a>
+						</form>
+					</div>
+					
+				</div>
+			       <a class="my-button" id="popup" onclick="show_form()">contact us</a>
+		    </div>
+		
+		
+
+	
+
+	</div>
+
+	<footer>
+	<div class="bottom-site">
+			<a href="http://www.facebook.com" target="_blank" class="footer-link">Facebook</a>
+			<a href="http://www.twitter.com" target="_blank" class="footer-link">Twitter</a>
+			<a href="index.html" class="footer-link">Home</a>
+			<p class="copyright">&copy; 2020 Sami Parllaku @New-Designer</p></div>	</footer>
+
+</body>
+</html>

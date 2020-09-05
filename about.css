@@ -1,0 +1,134 @@
+
+
+.Sph2{
+	padding: 80px 0 20px 0 ;
+
+}
+
+.SP-pic{
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 10%;
+
+}
+.About1 p{
+	padding-top: 20px;
+	max-width: 800px;
+	margin: 10px auto;
+}
+
+.site-container hr{
+	max-width: 400px;
+	margin: 100px auto;
+	border-top: solid grey;
+	border-style: none;
+	border-top-style: dotted;
+	border-top-width: 7px
+}
+.About2 h3{
+	color: purple;
+	font-family: Papyrus,fantasy;
+	font-size: 40px
+}
+
+.About2 ol{
+	margin: 30px 00px 30px 700px ;
+	text-align: left;
+    font-size: 20px;
+    font-family: Papyrus,fantasy;
+list-style-type: upper-roman;}
+
+.about60{
+	padding-left: 300px
+}
+.about65{
+	padding-left: 318px
+}
+
+/*Table*/
+.table1{
+	border-color: #507368;
+	width: 30%;
+	border-spacing:0px;
+	border-collapse: collapse;
+	margin: 30px 00px 30px 700px
+	
+}
+
+table.table1 tr :nth-child(2),
+table.table1 tr :nth-child(3){text-align: center;}
+
+td, th{
+	 
+	  border: 1px solid #507368;
+      
+      padding: 8px;
+      
+}
+
+th{background-color: #b285ff;
+color: white}
+
+.thride{
+width: 50%
+}
+
+.thcomment{
+	width: 20%
+}
+
+.thratings{
+	width: 30%
+}
+table tbody tr:nth-child(even) td{background-color: lightgrey}
+
+/*skills andHobbies*/
+
+.Skills-hobbies ul{
+	margin: 30px 00px 30px 700px ;
+	text-align: left;
+    font-size: 20px;
+    font-family: Papyrus,fantasy;
+list-style-type: upper-roman;
+}
+
+.Hobbies{
+	
+	padding-left: 110px
+}
+.Hobbies1{
+	
+	padding-left: 100px
+}
+.Hobbies2{
+	
+	padding-left: 87px
+}
+.Hobbies3{
+	
+	padding-left: 80px
+}
+
+.star1{
+	padding-left:85px
+}
+.star{
+	padding-left:90px
+}
+.star2{
+	padding-left:10px
+}
+.star3{
+	padding-left:40px
+}
+
+.star4{
+	padding-left:20px
+}
+.star5{
+	padding-left:10px
+}.star6{
+	padding-left:32px
+}.star7{
+	padding-left:37px
+}

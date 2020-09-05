@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thrill seekers</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Front End Development" content="Complete website design">
+	<meta name="keywords" content="Html,CSS,Front End">
+	<meta name="Author" content="Sami Parllaku">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<link rel="icon"  href="img/favicon.ico">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/cycle2.js"></script>
+	<script type="text/javascript" src="lightbox.min.js"></script>
+	<script type="text/javascript" src="frontend.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="img/thrill.png" width="80px" alt="logo">
+				<input type="text" name="search" class="searchbar" size="20" placeholder="Seach Web...">
+				<input type="submit" value="Search" size="2.5" class="searchbutton">
+				<ul class="mymenu">
+					<li class="drop">
+						<a href=" javascript:void(0)">Menu</a>
+						<div class="dropdown">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="Media.html">Media</a>
+							<a href="signup.html">Sign Up</a>
+							<a href="login.html">Log In</a>
+							<a class="About" href="About.html">About</a>
+						</div>
+
+					</li>
+                    <li><a href="blog.html">Blog</a></li>
+					<li class="mediadrop">
+						<a href="javascript:void(0)" class="active">Media</a>
+						<div class="mediadropdown">
+							<a href="media.html">Images </a>
+							<a href="media.html">Videos</a>
+							<a href="media.html"  class="slides">Slides</a>
+							
+						</div>
+
+					</li>
+					<li><a href="signup.html">Sign Up</a></li>
+					<li><a href="login.html"> Log In</a></li>
+					<li><a href="contact.html">Contact </a></li>
+					<li><a href="about.html">About</a></li>
+
+				</ul>
+
+			</nav>
+		</div>
+			<span data-toggle-target=".navbar" class="toggle-btn"><img src="img/menu.png"></span>
+	</header>
+	<div class="site-container">
+		<div class="media-header">
+		<h1 class="title">Theme Park Rides</h1>
+			
+		</div>
+		<div class="media-container">
+			<!--this is for sldes-->
+			<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+				<span class="cycle-prev"><img src="img/prev.png" alt="previous button"></span>
+				<span class="cycle-next"><img src="img/next.png" alt="next button"></span>
+				<span class="cycle-pager"></span>
+				<div class="slide">
+				<img class="slide1" src="img/RollerCoasters1.png" alt="rollercoster pic">
+			   	</div>
+				<div class="slide">
+				<img class="slide1" src="img/RollerCoasters2.png" alt="rollercoster pic">
+				</div>
+				<div class="slide">
+				<img class="slide1" src="img/RollerCoasters3.png" alt="rollercoster pic">
+				</div>
+				<div class="slide">
+			    <img class="slide1" src="img/RollerCoasters5.png" alt="rollercoster pic">
+				
+				</div>
+
+
+			</div>
+
+			<div class="photo-gallery-1">
+				<h2 class="pht1">Photo Gallery 1</h2>
+				<div class="thumbnails">
+					<a href="img/Aeroplane.png" data-lightbox="Gallery" data-title=" Aeroplane"><img src="img/Aeroplane-thumb.png"></a>
+					<a href="img/Bike.png" data-lightbox="Gallery" data-title="Bike"><img src="img/Bike-thumb.png"></a>
+					<a href="img/Car.png" data-lightbox="Gallery" data-title="Car"><img src="img/Car-thumb.png"></a>
+					<a href="img/Purple.png" data-lightbox="Gallery" data-title="Purple Tree"><img src="img/Purple-thumb.png"></a>
+					<a href="img/Parrot.png" data-lightbox="Gallery" data-title="Parrot"><img src="img/Parrot-thumb.png"></a>
+					<a href="img/Puppy.png" data-lightbox="Gallery" data-title="Puppy"><img src="img/Puppy-thumb.png"></a>
+					<a href="img/YellowFish.png" data-lightbox="Gallery" data-title="Yellow Fish"><img src="img/YellowFish-thumb.png"></a>
+					<a href="img/Water.png" data-lightbox="Gallery" data-title="Water"><img src="img/Water-thumb.png"></a>
+					
+				</div>
+		        </div>
+		        <div class="embedded videos">
+		    	    <h2 class="pht1"> Embedded Videos</h2>
+		    	    <div class="watch">
+		    		<video src="videos/Batman.mp4" controls poster="img/batman.jpg" > 
+		    		Your browser does not support the video type!
+		    	    </video>
+
+		    		
+		    	   </div>
+		    	
+		        </div>
+		        <div class="embedded-audios">
+		        	<h2 class="pht1">Embeded Audios</h2>
+		        	<div class="audio">
+		        		
+		        		<img src="img/hellbanz.jpg" width="50%" class="imgmp3"  onclick="playclip();">
+		        		<audio class="audio1" controls >
+		        		<source src="audio/vinz.mp3">
+		        		</audio>
+		        	</div>
+		        </div>
+		        <div class="photo-gallery-2">
+		        	<h2 class="pht1">Photo Gallery 2</h2>
+		        	<div class="photo-gallery">
+		        		<div class="Photo-thumbnails">
+		        			<img onmouseover="preview.src=Flower.src" name="Flower" src="img/Flower.png" alt="Flower">
+		        			<img onmouseover="preview.src=Love.src" name="Love" src="img/Love.png" alt="Love">
+		        			<img onmouseover="preview.src=Nature.src" name="Nature" src="img/Nature.png" alt="Nature">
+		        			<img onmouseover="preview.src=Palm.src" name="Palm" src="img/Palm.png" alt="Palm">
+		        		</div>
+		        		<div class="preview">
+		        			<img name="preview" src="img/love.png" alt="Flower">	        	
+		        		</div>
+		        		
+		        	</div>
+		        </div>
+		        <div class="css-stripes">
+		        	<h2 class="pht1">Css Strpes</h2>
+		        	<nav class="str">
+		        		<ul class="mystr">
+		        			<li class="home"><a class="astr" href="index.html">Home</a></li>
+		        			<li class="chat"><a class="astr" href="contact.html">Chat</a></li>
+		        			<li class="mail"><a class="astr" href="contact.html">Email</a></li>
+		        			<li class="phone"><a class="astr" href="contact.html">Phone</a></li>
+		        			
+		        		</ul>
+		        	</nav>
+		        </div>
+
+			
+		</div>
+	
+     
+	</div>
+
+	<footer>
+		<div class="bottom-site">
+			<a href="http://www.facebook.com" target="_blank" class="footer-link">Facebook</a>
+			<a href="http://www.twitter.com" target="_blank" class="footer-link">Twitter</a>
+			<a href="index.html" class="footer-link">Home</a>
+			<p class="copyright">&copy; 2020 Sami Parllaku @New-Designer</p>
+	</footer>
+
+</body>
+</html>

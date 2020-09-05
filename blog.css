@@ -1,0 +1,285 @@
+/*blog header*/
+
+.blog-header{
+	background-color: #b285ff
+}
+.blogh1{
+	font-size: 50px;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	padding-top: 140px;
+	color: black;
+	margin: 0; 
+	text-align: center;
+}
+.blogh2{
+	font-size: 30px
+}
+
+/*blog content*/
+.blog-content{
+	max-width: 1400px;
+	margin: auto auto;
+}
+
+@media screen and (max-width: 750px){
+	.blog-content{
+		padding: 0 20px
+	}
+}
+@media screen and (max-width: 1000px){
+	.blog-content{
+		padding: 0 40px
+	}
+}
+
+
+/*blog main area */
+
+.blog-main-area{
+	width: 50%;
+	float: left;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 40px;
+	box-sizing: border-box;
+
+}
+
+.smiler-image img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.smiler-description p{
+	color: white;
+	position: relative;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	padding: 0px 5px;
+	opacity: .96;
+}
+
+
+
+}
+
+.smiler-image{
+	position: relative;
+
+}
+
+.black-box{	
+background-color: lightgrey;
+margin-top: 50px;
+border-radius: 10px;
+padding: 30px 30px;
+border-style: solid;
+border-color: grey;	
+margin-bottom: 50px;
+ }
+
+
+ .map{
+ 	background-color: grey;
+ 	padding:300px 150px 0px 150px;
+ 	pad
+ 	margin-bottom: 50px;
+ 	margin-top: 50px;
+ 	background-image: url(img/altontowers.png);
+ 	background-position: center;
+ 	background-size: cover;
+
+
+
+ }
+
+.altontext{
+	margin-bottom: 50px;
+	color: black;
+	background: rgba(84, 98, 110,0.7);
+	font-weight: bolder;
+	text-align: center;
+}
+/*Table*/
+.table1{
+	border-color: #507368;
+	width: 100%;
+	border-spacing:0px;
+	border-collapse: collapse;
+	margin: 50px 0px;
+	
+}
+
+table.table1 tr :nth-child(2),
+table.table1 tr :nth-child(3){text-align: center;}
+
+td, th{
+	 
+	  border: 1px solid #507368;
+      
+      padding: 8px;
+      
+}
+
+th{background-color: #b285ff;
+color: white}
+
+.thride{
+width: 50%
+}
+
+.thcomment{
+	width: 20%
+}
+
+.thratings{
+	width: 30%
+}
+table tbody tr:nth-child(even) td{background-color: lightgrey}
+/* blog sideba r*/
+
+.blog-sidebar{
+	float: right;
+	width: 40%;
+	text-align: left;
+	padding-top: 20px;
+	box-sizing: border-box;
+	background-image: linear-gradient(to bottom,#b285ff,#efe6ff);
+
+}
+
+@media screen and (max-width: 750px){
+	.blog-main-area
+	{
+		width: auto;
+		text-align: center;
+		box-sizing: border-box;
+		margin-left: -40px;
+
+	}
+
+.blog-sidebar{	width: auto;
+		text-align: center;
+		box-sizing: border-box;
+		margin-left: 0px;		
+		margin-right: -0px}
+
+}
+
+.Read-more{
+	font-size: 20px;
+	text-align: left;
+	color: purple;
+	display: none;
+	text-decoration: underline;
+}
+
+.Read-more:hover{
+	cursor: pointer;
+	color: blue
+}
+@media screen and (max-width: 750px){
+
+	.Read-more{display: block;}
+	.hiden-text{
+		display: none;}
+		.toggle-target-expanded { display: block; }
+	
+}
+
+
+.oblivion-img{
+	width: 100%;
+	position: relative;
+}
+
+input[type="email"],
+input[type="password"]
+
+{	padding-left: 40px;
+	margin-left: 10px;
+	width: 90%;
+	margin-bottom: 10px;
+	height: 40px;
+	border:1px solid lightgrey;
+	outline: none;
+	box-sizing: border-box;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+
+	
+}
+input[type="email"]{
+	background-image:url(img/emailicon.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 2px 3px;
+}
+input[type="password"]{
+	background-image:url(img/password.png);
+	background-repeat: no-repeat;
+	background-size: 28px;
+	background-position: 5px 5px;
+
+}
+
+select{
+	border:1px solid lightgrey;
+	margin-left: 10px;
+	width: 30%;
+	outline: none;
+	box-sizing: border-box;
+	width: 90%;
+	height: 40px;
+
+
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus{
+	border:1px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0,0,0,.30);
+}
+
+.label1{
+	margin-left: 10px;
+margin-right: 10px;
+font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.newsletter-submit{
+	margin-top: 10px;
+	border:1px solid lightgrey;
+	margin-left: 10px;
+	width: 30%;
+	outline: none;
+	box-sizing: border-box;
+	width: 90%;
+	height: 40px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+
+
+}
+.newsletter-submit:hover{background-color: darkgrey}
+
+input[type="checkbox"] { margin-left: 10px; }
+
+.checkbox-text{
+	font-weight: bold;
+	font-size: 120%;
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+}
+
+
+
+
+
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: table;}
